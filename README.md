@@ -85,7 +85,7 @@ Ex:
 
 ✅ edge-computing-actions
 
-Run jcbsfilho/edge-computing-deploy@v3.0.4
+Run jcbsfilho/edge-computing-deploy@v3.1.0
 ⚡️ info      Create config file
 ⚡️ info      Starting Create New Application!
 ⚡️ info      Edge Application created!
