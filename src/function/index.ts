@@ -10,6 +10,9 @@ async function handleRequest(request: CustomRequest, args: Args) {
    * ex. router.get('/users', getUsersGithub)
    */
   router.get("/search", getRepos);
+  router.all("*", () => {
+    return new Response(`Template Edge Application ChatGPT Plugin on Azion`, { status: 200 });
+  });
 
   return router.handle(request, { args });
 }
