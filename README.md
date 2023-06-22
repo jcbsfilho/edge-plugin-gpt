@@ -48,7 +48,6 @@ For automatic deployment, create a pull request to the **main** branch.
 - `{your-domain}/openapi.json` OpenApi specification
 - `{your-domain}/search` Search repositories on Github
 
-> Note: 
 
 ### Get URL and Install Plugin
 
@@ -57,6 +56,7 @@ Retrieve your domain url created in Azion and insert it in your plugin installat
 Folder config
 
 After deploy access [azion/azion.json](./azion/azion.json)
+> This file will be automatically created on your first deploy (pull request to main branch)
 
 Ex:
 
