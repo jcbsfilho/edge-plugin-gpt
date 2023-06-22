@@ -42,6 +42,14 @@ Add the Personal Token to the `secrets`:
 
 For automatic deployment, create a pull request to the **main** branch.
 
+#### Routes
+
+- `{your-domain}/.well-known/ai-plugin.json` Plugin config
+- `{your-domain}/openapi.json` OpenApi specification
+- `{your-domain}/search` Search repositories on Github
+
+> Note: 
+
 ### Get URL and Install Plugin
 
 Retrieve your domain url created in Azion and insert it in your plugin installation
